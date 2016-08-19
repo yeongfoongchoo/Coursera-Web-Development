@@ -30,23 +30,29 @@
         
       }
       
+      /************ Large devices only *********************/
       @media (min-width: 992px){
-        .Food.food1{
-          width = 33.33%;
-          
+        .Food.food1, .Food.food2 {
+          width : 30%;
+          float : left;
+          border: 1px solid blue;
         }
         
-        .Food.food2{
-          width = 33.33%;
+        .Food.food1 {
           
-        }
+        } 
+
+        .Food.food2 {
+        } 
         
       }
       
+      /************ Medium devices only *********************/
       @media (min-width: 768px and max-width: 991px) {
         
       }
       
+      /************ Small devices only *********************/
       @media (max-width: 767px){
         
       }
